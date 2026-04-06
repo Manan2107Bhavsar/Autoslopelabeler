@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ftdOfkJ4x+k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bhavs\\Downloads\\Autoslopelabeler\\AutoSlopeLabeler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bhavs\\.nuget\\packages\\autocad.net\\25.1.0\\autocad.net.25.1.0.nupkg.sha512",
+    "C:\\Users\\bhavs\\.nuget\\packages\\autocad.net.core\\25.1.0\\autocad.net.core.25.1.0.nupkg.sha512",
+    "C:\\Users\\bhavs\\.nuget\\packages\\autocad.net.model\\25.1.0\\autocad.net.model.25.1.0.nupkg.sha512",
+    "C:\\Users\\bhavs\\.nuget\\packages\\civil3d.net\\13.8.946\\civil3d.net.13.8.946.nupkg.sha512",
+    "C:\\Users\\bhavs\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\bhavs\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\bhavs\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Civil 3D 2026 runs on .NET 8 Windows -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Platforms>x64</Platforms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+
+    <!-- Prevents build errors from auto-generated assembly attributes -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <!-- Output as a DLL (class library), not an exe -->
+    <OutputType>Library</OutputType>
+    <AssemblyName>AutoSlopeLabeler</AssemblyName>
+    <RootNamespace>AutoSlopeLabeler</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- AutoCAD 2026 base UI assemblies -->
+    <PackageReference Include="AutoCAD.NET" Version="25.1.0" />
+    <!-- Civil 3D 2026.1 assemblies (alignments, surfaces, labels) -->
+    <PackageReference Include="Civil3D.NET" Version="13.8.946" />
+  </ItemGroup>
+
+</Project>
