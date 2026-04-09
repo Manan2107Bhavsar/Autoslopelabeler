@@ -184,11 +184,11 @@ namespace AutoSlopeLabeler
             if (labelStyleId == ObjectId.Null) { ed.WriteMessage("\nCancelled.\n"); return; }
 
             // ── 3. Centerline alignment ───────────────────────────────
-            var centerlineId = PickAlignment(ed, "Select First alignment");
+            var centerlineId = PickAlignment(ed, "Select CENTERLINE alignment");
             if (centerlineId == ObjectId.Null) { ed.WriteMessage("\nCancelled.\n"); return; }
 
             // ── 4. Lip line alignment ─────────────────────────────────
-            var lipLineId = PickAlignment(ed, "Select Perpendicular alignment (one side)");
+            var lipLineId = PickAlignment(ed, "Select LIP LINE alignment (one side)");
             if (lipLineId == ObjectId.Null) { ed.WriteMessage("\nCancelled.\n"); return; }
 
             // ── 5. Station range and interval ─────────────────────────
@@ -235,10 +235,9 @@ namespace AutoSlopeLabeler
         }
 
         // ─────────────────────────────────────────────────────────
-        // Opens WPF dialog populated with ALL surfaces in the drawing:
-        // TIN, Grid, TIN Volume, Grid Volume.
-        // Visibility does NOT matter — frozen/off surfaces included.
-        // Returns ObjectId.Null on cancel.
+        // Opens WPF dialog populated with every TIN/Grid surface
+        // found in the drawing.  Returns ObjectId.Null on cancel.
+        // Surface visibility does NOT matter — all are listed.
         // ─────────────────────────────────────────────────────────
         private static ObjectId PickSurfaceFromDialog(Database db)
         {
@@ -260,10 +259,6 @@ namespace AutoSlopeLabeler
                         items.Add(new SurfaceItem(tin.Name, "TIN", id));
                     else if (obj is GridSurface grid)
                         items.Add(new SurfaceItem(grid.Name, "Grid", id));
-                    else if (obj is TinVolumeSurface tinVol)
-                        items.Add(new SurfaceItem(tinVol.Name, "TIN Volume", id));
-                    else if (obj is GridVolumeSurface gridVol)
-                        items.Add(new SurfaceItem(gridVol.Name, "Grid Volume", id));
                 }
 
                 tr.Commit();

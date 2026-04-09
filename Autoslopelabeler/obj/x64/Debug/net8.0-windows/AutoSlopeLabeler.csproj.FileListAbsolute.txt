@@ -1,0 +1,10 @@
+C:\Users\bhavs\Downloads\Autoslopelabeler\obj\x64\Debug\net8.0-windows\AutoSlopeLabeler.csproj.AssemblyReference.cache
+C:\Users\bhavs\Downloads\Autoslopelabeler\obj\x64\Debug\net8.0-windows\AutoSlopeLabeler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhavs\Downloads\Autoslopelabeler\obj\x64\Debug\net8.0-windows\AutoSlopeLabeler.csproj.CoreCompileInputs.cache
+C:\Users\bhavs\Downloads\Autoslopelabeler\bin\x64\Debug\net8.0-windows\AutoSlopeLabeler.deps.json
+C:\Users\bhavs\Downloads\Autoslopelabeler\bin\x64\Debug\net8.0-windows\AutoSlopeLabeler.dll
+C:\Users\bhavs\Downloads\Autoslopelabeler\bin\x64\Debug\net8.0-windows\AutoSlopeLabeler.pdb
+C:\Users\bhavs\Downloads\Autoslopelabeler\obj\x64\Debug\net8.0-windows\AutoSlopeLabeler.dll
+C:\Users\bhavs\Downloads\Autoslopelabeler\obj\x64\Debug\net8.0-windows\refint\AutoSlopeLabeler.dll
+C:\Users\bhavs\Downloads\Autoslopelabeler\obj\x64\Debug\net8.0-windows\AutoSlopeLabeler.pdb
+C:\Users\bhavs\Downloads\Autoslopelabeler\obj\x64\Debug\net8.0-windows\ref\AutoSlopeLabeler.dll
